@@ -611,12 +611,16 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        <form>
-          <fieldset>
-          <label for="name">
-            Ім'я
+        <form class="modal-form" name="modal-form">
+          <div class="modal-form-group" role="group">
+          <label for="name">Ім'я</label>
+          <div class="modal-form-wrapper">
             <input type="text" name="user_name" id="name">
-          </label>
+          <svg class="modal-form-icon" width="12" height="12">
+            <use href="./images/symbol-defs-2.svg#icon-person-modal"></use>
+          </svg>
+          </div>
+
           <label for="phone">
             Телефон
             <input type="tel" name="user_tel" id="phone">
@@ -630,12 +634,12 @@
             <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Введіть текст" >
             </textarea>
           </label>
-          </fieldset>
+          </div>
          <label for="agree">
           <input type="checkbox" name="agreement policy" id="agree">
          </label>
           <button type="submit">Відправити</button>
-        </form>
+          </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
