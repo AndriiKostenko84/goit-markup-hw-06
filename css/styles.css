@@ -483,6 +483,8 @@ background: rgba(47, 48, 58, 0.8);
   color: var(--third-color);
 }
 .join-us-footer {
+  margin-right: 183px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -565,6 +567,40 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+}
+
+.subscribe {
+  margin-left: 93px;
+  width: 100%;
+}
+
+.subscribe-email {
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+
+  background-color: #2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subscribe-btn {
+  
+  min-width: 200px;
+  min-height: 50px;
+
+  color: var(--third-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--accent-color);
+}
+
+.icon-email-send {
+  fill: var(--third-color);
+}
+
+textarea {
+  resize: none;
 }
 
 /* ----footer---- */
