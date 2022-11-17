@@ -200,7 +200,7 @@ ul {
   color: var(--third-color);
 }
 
-.btn-hero {
+.hero-btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -221,12 +221,12 @@ ul {
   color: var(--third-color);
   cursor: pointer;
   background: var(--accent-color);
-
+  border-color: transparent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: pink;
 }
 
@@ -599,9 +599,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--third-color);
 }
 
-textarea {
-  resize: none;
-}
 
 /* ----footer---- */
 
@@ -651,8 +648,6 @@ textarea {
   
 }
 
-
-
 .filter-item .example-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -672,7 +667,6 @@ top: 0;
 left: 0;
 transform: translateY(100%);
 transition: transform var(--anim-stand);
-
 
 
 width: 100%;
@@ -728,7 +722,7 @@ color: var(--third-color);
 
 /* ----Modal window---- */
 .backdrop {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   z-index: 100;
@@ -786,6 +780,79 @@ transition: border-color var(--anim-stand);
 .modal-btn.modal-btn:hover  {
   border-color: var(--accent-color);
 }
+
+
+
+.modal-title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--main-title-color);
+}
+
+.modal-form-group {
+  margin-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.modal-form-text {
+  padding-bottom: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+
+  letter-spacing: 0.01em;
+
+  color: var(--brand-color);
+}
+
+.modal-form-wrapper {
+  
+}
+
+textarea {
+  resize: none;
+}
+
+.modal-form-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  min-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 10px 52px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--third-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+
+}
+
+
+.agreement-policy:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+
+
 /* -----Modal window---- */
 
 
