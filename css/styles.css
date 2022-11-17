@@ -785,6 +785,7 @@ transition: border-color var(--anim-stand);
 
 .modal-title {
     margin-top: 40px;
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -794,10 +795,17 @@ transition: border-color var(--anim-stand);
     color: var(--main-title-color);
 }
 
+.modal-form {
+
+}
+
 .modal-form-group {
-  margin-top: 12px;
-  padding-bottom: 10px;
-  padding-left: 40px;
+  width: 448px;
+    height: 342px;
+    outline: 1px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .modal-form-text {
@@ -813,9 +821,17 @@ transition: border-color var(--anim-stand);
 }
 
 .modal-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid teal;
   
 }
 
+.modal-form-wrapper input{
+  width: 448px;
+  height: 40px;
+
+}
 textarea {
   resize: none;
 }
@@ -828,7 +844,6 @@ textarea {
   min-height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   margin-bottom: 40px;
   padding: 10px 52px;
 
@@ -845,6 +860,13 @@ textarea {
 
 }
 
+.modal-checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 52px;
+  margin-right: 51px;
+  margin-bottom: 30px;
+}
 
 .agreement-policy:hover {
   color: var(--accent-color);
