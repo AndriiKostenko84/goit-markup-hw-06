@@ -810,12 +810,7 @@ fill: var(--accent-color);
   color: var(--main-title-color);
 }
 
-.modal-form {
-}
 
-.modal-form-group {
-  
-}
 
 .modal-label {
   display: block;
@@ -848,21 +843,6 @@ fill: var(--accent-color);
   margin-bottom: 10px;
 }
 
-.modal-form-field {
-  width: 100%;
-  height: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-
-  outline: 1px solid transparent;
-  outline-offset: -1px;
-
-  transition: outline var(--anim-stand);
-}
-
 .modal-form-field:focus {
   outline-color: var(--accent-color);
 }
@@ -882,7 +862,7 @@ fill: var(--accent-color);
 
 .modal-form-field {
   width: 100%;
-  height: 45px;
+  height: 40px;
   padding-left: 40px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
