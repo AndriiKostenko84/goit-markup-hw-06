@@ -488,7 +488,7 @@ ul {
 }
 .address-box {
   display: flex;
-  margin-right: 70px;
+ 
 }
 .address-list {
   margin-right: 70px;
@@ -565,7 +565,7 @@ ul {
   align-items: center;
   gap: 12px;
   margin-left: 93px;
-  margin-bottom: 94px;
+ 
 }
 
 .subscribe-field {
@@ -603,7 +603,7 @@ ul {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 31.88;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 
   color: var(--third-color);
@@ -755,13 +755,16 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  padding: 40px;
+  
   width: 528px;
   height: 581px;
   background: var(--third-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .modal-btn {
@@ -780,21 +783,23 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   cursor: pointer;
-  transition: border-color var(--anim-stand);
+  
 }
 
 .modal-icon {
   fill: #000000;
+  transition: fill var(--anim-stand);
 }
 
-.modal-btn.modal-btn:hover {
-  border-color: var(--accent-color);
+.modal-icon:hover {
+fill: var(--accent-color);
 }
+
 
 .modal-title {
   display: block;
   text-align: center;
-  margin-top: 40px;
+  
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -809,11 +814,7 @@ ul {
 }
 
 .modal-form-group {
-  width: 448px;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  
 }
 
 .modal-label {
@@ -849,7 +850,7 @@ ul {
 
 .modal-form-field {
   width: 100%;
-  height: 45px;
+  height: 40px;
   padding-left: 40px;
   padding-right: 40px;
 
